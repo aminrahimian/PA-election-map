@@ -62,6 +62,6 @@ plt.title('Mean Distance of Polling Stations in Pennsylvania with County Boundar
 plt.xlabel('Longitude', fontsize=15)
 plt.ylabel('Latitude', fontsize=15)
 
-plt.savefig('county_color_map.png')
+plt.savefig('heatmap.png')
 # Show the plot
 plt.show()
