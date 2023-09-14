@@ -18,6 +18,6 @@ def remove_duplicates(csv_file):
         writer = csv.writer(file)
         writer.writerows(rows)
 
-csv_file_path = 'data60.csv'
+csv_file_path = 'data52.csv'
 
 remove_duplicates(csv_file_path)
